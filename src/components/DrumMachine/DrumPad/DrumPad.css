@@ -1,0 +1,15 @@
+.drum-pad {
+  background-color: rgba(248, 248, 255, 0.973);
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  border: 1px solid #b6b8bd;
+  border-radius: 5px;
+  box-shadow: inset -1px 3px 5px 3px #b6b8bd;
+  align-content: center;
+  justify-content: center;
+}
+
+.drum-pad:hover {
+  background-color: rgba(231, 231, 238, 0.87);
+}

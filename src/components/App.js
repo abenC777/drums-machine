@@ -1,11 +1,11 @@
 import "./App.css";
+import DrumMachine from "./DrumMachine/DrumMachine";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello there</h1>
-      </header>
+      <h1>Press the buttons to play the drums!</h1>
+      <DrumMachine />
     </div>
   );
 }
